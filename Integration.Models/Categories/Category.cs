@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Security.AccessControl;
 
-namespace Integration.Models
+namespace Integration.Models.Categories
 {
     public class Category
     {

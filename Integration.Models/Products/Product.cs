@@ -1,7 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+﻿using Integration.Models.Categories;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System.ComponentModel.DataAnnotations;
 
-namespace Integration.Models
+namespace Integration.Models.Products
 {
     public class Product
     {
