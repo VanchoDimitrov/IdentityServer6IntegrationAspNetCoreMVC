@@ -1,4 +1,5 @@
-﻿using Integration.Models;
+﻿using Integration.Models.Categories;
+using Integration.Models.Products;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
