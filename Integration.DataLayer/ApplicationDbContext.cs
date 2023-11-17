@@ -1,5 +1,6 @@
 ﻿using Integration.Models.Categories;
 using Integration.Models.Products;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,4 +17,12 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<Category> Categories { get; set; }
 
     public DbSet<Product> Products { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+
+        builder.Entity<IdentityUserLogin<string>>()
+            .HasKey(l => new { l.LoginProvider, l.ProviderKey });
+    }
 }
