@@ -3,10 +3,13 @@ using Integration.Models.Products;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace Integration.DataLayer;
 public class ApplicationDbContext : IdentityDbContext
 {
+    private readonly IConfiguration _configuration;
+
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)

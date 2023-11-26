@@ -9,7 +9,7 @@ public class Repository<T> : IRepository<T> where T : class
 
     private DbSet<T> _dbSet;
 
-    public Repository(ApplicationDbContext context, DbSet<T> dbSet)
+    public Repository(ApplicationDbContext context)
     {
         _context = context;
         _dbSet = _context.Set<T>();

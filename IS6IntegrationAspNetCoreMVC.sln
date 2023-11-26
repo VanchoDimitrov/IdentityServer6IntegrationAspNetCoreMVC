@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IS6IntegrationAspNetCoreMVC", "IS6IntegrationAspNetCoreMVC\IS6IntegrationAspNetCoreMVC.csproj", "{7273A26C-B0CE-4053-A83B-8898B08D4388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IS6IntegrationAspNetCoreMVC", "IS6IntegrationAspNetCoreMVC\IS6IntegrationAspNetCoreMVC.csproj", "{7273A26C-B0CE-4053-A83B-8898B08D4388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.Models", "Integration.Models\Integration.Models.csproj", "{B0190985-7AF5-4E51-B474-DA0D5EE2B1E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration.Models", "Integration.Models\Integration.Models.csproj", "{B0190985-7AF5-4E51-B474-DA0D5EE2B1E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.DataLayer", "Integration.DataLayer\Integration.DataLayer.csproj", "{BB1DA468-2012-446E-A09B-6AD63AF9134C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration.DataLayer", "Integration.DataLayer\Integration.DataLayer.csproj", "{BB1DA468-2012-446E-A09B-6AD63AF9134C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.Shared", "Integration.Shared\Integration.Shared.csproj", "{0C145C3A-ADE8-4CBB-B87D-584E6A6779EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration.Shared", "Integration.Shared\Integration.Shared.csproj", "{0C145C3A-ADE8-4CBB-B87D-584E6A6779EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integration.Tests", "Integration.Tests\Integration.Tests.csproj", "{19FFAF9A-D655-4024-9760-269DCECC4D64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration.Tests", "Integration.Tests\Integration.Tests.csproj", "{19FFAF9A-D655-4024-9760-269DCECC4D64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
